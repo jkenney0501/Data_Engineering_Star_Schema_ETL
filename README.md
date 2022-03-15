@@ -7,7 +7,6 @@ The star schema will allow for a digestable format that users of the data can un
 </p>
 
 ## Overview
-<hr>
 <p>
 The star schema uses a fact table for songplays and four dimension tables (users, songs, artists, time). The DROP, CREATE, INSERT, and SELECT queries are defined in sql_queries.py, these queries are responsible for the Data Defintion Language of the database. The create_tables.py uses functions create_database, drop_tables, and create_tables to create the database sparkifydb and the required tables.
 </p>
@@ -16,13 +15,12 @@ The ETL process (Extract, transform, load) is composed of the python commands lo
 </p>
 
 ## Star Schema Design
-<hr>
+
 <img src="SparkifyStarERv2.png" />
 
 <br>
 
 ## Methodology
-<hr>
 <p>
 The pipleine process runs in the following way:
 Note:  To execute scripts: python <scriptname>
@@ -34,7 +32,6 @@ Note:  To execute scripts: python <scriptname>
 
 
 ## Testing The Model
-<hr>
 <p>
 To safeguard against errors, test.ipny uses mutiple checks for constraints, common errors, datatype and conflicts. Should any errors occur, a warnign message appears below the cell to inform where the error is located. 
 </p>
