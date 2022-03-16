@@ -2,6 +2,7 @@
 <p>
 Sparkify is psuedo a music streaming app that allows users to sign up and stream music. Currently, Sparkify has limited analytics capabiity and needs to find a way to gather and query data to gain valuable insights from their users. Sparkify's data resides in a directory of JSON logs that captures user data and all pertinent metadata and will need to be modeled into a star schema that uses an ETL process to pull data from the JSON directory to a Postgres database. The process is meant to somewhat mimick pulling data from an API into a database.
 </p>
+<img src="SparkifyUML.png" />
 <p>
 The star schema will allow for a digestable format that users of the data can understand and query without having to complicate queries with multiple joins over a series of tables. Additionally, using an ETL process from JSON to Postgres will provide a a set of relational tables within a relational database which makes access for analytics much easier. Below is a short description and visual of the model. 
 </p>
